@@ -7,10 +7,10 @@ export default function RootLayout({ children }) {
     <React.Fragment>
       <div>
         <Head>
-          <title>Al Gharbia</title>
+          <title>Your Marketing Mastery</title>
           <meta name="description" content="" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <link rel="icon" href="/favicon.ico" />
+          <link rel="icon" href="./images/tick.png" />
         </Head>
         <main> {children}</main>
 
