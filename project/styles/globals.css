@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  /* font-family: "Rubik", sans-serif; */
+  /* font-family: "Anek Devanagari", sans-serif; */
+}
+.container {
+  max-width: 1200px;
+  width: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  padding: 0;
+  margin: 0;
+  font-weight: 300;
+}
+.swiper {
+  padding-bottom: 50px !important;
+}
+.swiperSlide_sec {
+  position: relative;
+  width: 100%;
+}
+.swiper-arrow-icon-sec {
+  padding-top: 20px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: -10px;
+  width: 100%;
+}
+.swiper-arrow-icon {
+  height: auto;
+  width: 50px;
+  cursor: pointer;
+  opacity: 0.2;
+  transition: all 0.3s ease-in-out;
+  z-index: 5;
+}
+.swiper-arrow-icon:hover {
+  opacity: 1;
+}
+.swiper-arrow-icon > img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  filter: contrast(0.8);
+}
+
+a {
+  text-decoration: none;
+}
+.swiper-pagination-bullet-active {
+  opacity: var(--swiper-pagination-bullet-opacity, 1);
+  background: var(--swiper-pagination-color, #db89ff) !important;
+}
+@media screen and (max-width: 1440px) {
+  .swiper-arrow-icon {
+    width: 45px;
+  }
+}
+@media screen and (max-width: 1366px) {
+  .container {
+    padding: 0 5%;
+    box-sizing: border-box;
+  }
+  .swiper-arrow-icon {
+    width: 40px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .swiper {
+    padding-bottom: 30px !important;
+  }
+  .swiper-pagination-fraction,
+  .swiper-pagination-custom,
+  .swiper-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: var(--swiper-pagination-bottom, 3px) !important;
+  }
+}
+/* //////////////////////////////////// */
