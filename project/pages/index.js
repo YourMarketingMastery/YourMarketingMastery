@@ -156,7 +156,6 @@ const Index = () => {
         {/* -----------Digital Marketing Mastery----------------- */}
         <div className={`${home.p1_main_body} container`}>
           <div className={`${home.p1_body1} `}>
-            <h4>SELF-PACED COURSE</h4>
             <h1>
               Digital Marketing Mastery
               {/* FaceBook & Instagram <br /> Ads Course */}
@@ -189,19 +188,12 @@ const Index = () => {
           </div>
           <div className={`${home.p1_body2} `}>
             <div className={`${home.p1_body2_video_sec} `}>
-              <iframe
-                src="https://www.youtube.com/embed/lBp7Vpq3cNE?si=31f7mx5KovJbX81Q"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin"
-                allowfullscreen
-              ></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/OhdUTbH9T-U?si=tduoAKOo9EkxdAw4&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
             <div className={`${home.p1_body2_card_sec} `}>
               <div className={`${home.p1_body2_card_sec_profile} `}>
                 <Image
-                  src={"/images/verified.png"}
+                  src={"/images/profile.jpg"}
                   height={110}
                   width={110}
                   alt=""
@@ -3138,7 +3130,7 @@ const Index = () => {
             <div className={`${home.p9_body_profile_sec} `}>
               <div className={`${home.p9_body_profile_photo} `}>
                 <Image
-                  src={"/images/verified.png"}
+                  src={"/images/profile.jpg"}
                   height={300}
                   width={300}
                   alt=""
