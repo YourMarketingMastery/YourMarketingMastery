@@ -2968,7 +2968,7 @@ const Index = () => {
 
         {/* -----------  Enroll before August 20,-------------- */}
 
-        <div className={`${home.p7_body} `}>
+        {/* <div className={`${home.p7_body} `}>
           <div className={`${home.p7_body_container} container`}>
             <h3>
               Enroll before August 20, 2024 11:59 PM & Get Premium <br />{" "}
@@ -3103,7 +3103,7 @@ const Index = () => {
             </Link>
             <p>🎉 Year End Mega Sale - Get 80% + Extra 20% discount today</p>
           </div>
-        </div>
+        </div> */}
 
         {/* -----------Why learn Facebook & Instagram Ads in 2024?------------- */}
 
@@ -3140,17 +3140,15 @@ const Index = () => {
                 <h3>Rohith Sasankan</h3>
                 <p>Founder – Young Urban Project</p>
                 <ul className={`${home.p9_body_profile_data_list} `}>
-                  <li>Digital Marketing Strategy & Advertising expert.</li>
-                  <li>10+ years of experience. </li>
-                  <li>TEDx Speaker. </li>
+                  <li> Managed over ₹100 Cr in Ad Spends</li>
+                  <li> 10+ Years of Industry Experience</li>
+                  <li> Worked with 300+ Clients </li>
                   <li>
-                    Worked with brands like Navi, Zee, Cleartrip, ZestMoney,
-                    Edelweiss, Liberty Insurance, Reliance Brands, Centrum,
-                    Bloomsbury, and more.{" "}
+                    {" "}
+                    Expert in Scaling Businesses through Data-Driven
+                    Strategies{" "}
                   </li>
-                  <li>Named Young Achiever (Digital) by WMC </li>
-                  <li>Named among Top-50 Strategy professionals in India </li>
-                </ul>
+                  <li> Trained 5000+ Students in Digital Marketing </li> </ul>
               </div>
             </div>
             <span>AS SEEN ON</span>
