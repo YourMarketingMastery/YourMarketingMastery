@@ -90,6 +90,7 @@ const Index = () => {
       ],
     },
   ]);
+  
   const [selectedFaq, setSelectedFaq] = useState(faq[0]);
 
   const faqSelector = (id) => {
@@ -105,6 +106,7 @@ const Index = () => {
   return (
     <div>
       <div className={home.mainbody}>
+
         {/* -----------Digital Marketing Mastery----------------- */}
         <div className={`${home.p1_main_body} container`}>
           <div className={`${home.p1_body1} `}>
@@ -179,6 +181,7 @@ const Index = () => {
             </div>
           </div>
         </div>
+
         {/* --------GOOGLE RATING Card---------- */}
         <div
           className={`${home.p2_main_body} `}
@@ -3183,8 +3186,8 @@ const Index = () => {
                 prevEl: "#swiper_prev_btn",
               }}
               breakpoints={{
-              
-                
+
+
                 550: {
                   spaceBetween: 30,
                   slidesPerView: 2,
@@ -3374,8 +3377,8 @@ const Index = () => {
                 >
                   Digital Marketing Growth and Scope
                 </li>
-             
-             
+
+
               </ul>
               {selectedFaq && (
                 <ul className={`${home.p14_faq_question_sec} `}>
