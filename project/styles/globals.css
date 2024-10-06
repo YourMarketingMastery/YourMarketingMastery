@@ -27,6 +27,12 @@ h5 {
   padding-bottom: 50px !important;
 }
 
+.swiper-slide {
+  
+  display: inline-flex !important;
+  height: unset !important;
+}
+
 .swiperSlide_sec {
   position: relative;
   width: 100%;

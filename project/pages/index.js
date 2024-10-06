@@ -28,19 +28,21 @@ const Index = () => {
       id: 1,
       properties: [
         {
-          questions: "What is the Facebook and Instagram ads course?",
+          questions: "What is Digital Marketing, and why should I learn it?",
           answer:
-            "Facebook and Instagram Ads course is a comprehensive journey into mastering the art of advertising on two of the world`s most influential social media platforms. Our course equips entrepreneurs, marketers, students and small business owners with essential skills for impactful & profitable campaigns.",
+            "Digital marketing is the art of promoting products, services, or brands through online platforms like social media, Google, and websites. It’s everywhere—from the ads you see on Instagram to the search results on Google. Learning digital marketing opens doors to exciting career opportunities, whether you want to work for a big company, start your own business, or freelance. It’s a skill set in high demand as businesses around the world move online!",
         },
         {
-          questions: "Why Facebook and Instagram is the best way to advertise?",
+          questions:
+            "Do I need any prior experience or a specific degree to learn Digital Marketing?",
           answer:
-            "Facebook and Instagram offer unparalleled reach and targeting options, making them highly effective platforms for advertising. With over three billion active users monthly across these platforms, you have the potential to engage with existing customers and attract new ones.",
+            "Not at all! You don’t need any previous experience or a specific degree to start learning digital marketing. Our courses are designed to guide you step-by-step, from the basics to more advanced strategies. Whether you're a complete beginner or have some knowledge, you'll find everything you need to master the subject. Passion and a willingness to learn are the only prerequisites!",
         },
         {
-          questions: "How to do Instagram and Facebook ads?",
+          questions:
+            "What kind of jobs can I get after learning Digital Marketing? ",
           answer:
-            "To start with Instagram and Facebook ads, you will learn step-by-step strategies and practical techniques in our course. From setting up your ad accounts to creating and optimizing ad campaigns, we cover everything you need to know to get started.",
+            "The job opportunities in digital marketing are endless! You could become a Social Media Manager, SEO Specialist, Google Ads Expert, Content Marketer, or even start your own online business. Companies of all sizes—startups, global brands, and agencies—are always on the lookout for digital marketing experts. Plus, you can freelance or offer your skills as a consultant. The digital world is growing, and so are the opportunities!",
         },
       ],
     },
@@ -49,20 +51,21 @@ const Index = () => {
       id: 2,
       properties: [
         {
-          questions: " What are the benefits of Instagram and Facebook ads?",
+          questions: " How will a Digital Marketing course benefit my career?",
           answer:
-            "They help you reach the right people, expand your audience, showcase your brand in various ways, and track your progress. Furthermore, Instagram and Facebook ads offer robust analytics and insights, allowing businesses to track the performance of their campaigns in real-time.",
-        },
-        {
-          questions: "How to grow your audience on Facebook and Instagram?",
-          answer:
-            "Growing your audience on Facebook and Instagram requires a strategic approach, including engaging content creation, targeted advertising, and community interaction. Our course provides insights and strategies to help you effectively grow your audience on these platforms.",
+            "Taking a digital marketing course can supercharge your career by equipping you with skills that are in high demand. You’ll learn how to build websites, run successful ad campaigns, optimize content for Google, and create strategies for social media. These skills can land you a job in top companies, allow you to freelance, or even help you launch your own business. With a certification, you stand out from the competition and increase your earning potential!",
         },
         {
           questions:
-            " What will I learn in the Facebook and Instagram Ads course?",
+            "Can I get hands-on experience while learning Digital Marketing?",
           answer:
-            "Our course covers a wide range of topics, including ad creation, targeting techniques, budget optimization, performance tracking, and best practices for maximizing ROI on Facebook and Instagram. You will also learn how to navigate the Ads Manager interfaces and leverage advanced features & strategies to drive results.",
+            "Absolutely! Our courses are designed to give you real-world experience. You’ll work on live projects, practice with industry tools like Google Analytics, and run mock campaigns to understand how everything works. By the end of the course, you’ll have a portfolio to showcase your skills, making you job-ready from day one!",
+        },
+        {
+          questions:
+            "Will learning Digital Marketing help me if I want to start my own business?",
+          answer:
+            "Yes, 100%! Digital marketing is essential for building and promoting any business online. You’ll learn how to create a strong online presence, reach your target audience, and convert visitors into loyal customers—all without spending a fortune on traditional advertising. With the strategies you master, you’ll be able to grow your business faster and smarter!",
         },
       ],
     },
@@ -70,70 +73,19 @@ const Index = () => {
       id: 3,
       properties: [
         {
-          questions:
-            " What career opportunities are available in Facebook and Instagram ads?",
+          questions: "Is Digital Marketing really a growing field?",
           answer:
-            "There are many roles in this field and Career opportunities are expected to grow (and evolve further). Roles like Paid Social Media Manager, Peformance Marketer, Digital Marketing Specialist, Advertising Strategist are prominent.",
+            "Yes, digital marketing is booming! As more businesses move online, the demand for skilled digital marketers is skyrocketing. Every industry, from fashion to finance, needs digital marketing experts to build their online presence, attract customers, and grow their brand. Whether you want to work locally or globally, digital marketing offers endless growth opportunities as the industry keeps expanding.",
         },
         {
-          questions: "How do I become a Facebook and Instagram ad manager?",
+          questions: "What is the future scope of Digital Marketing?",
           answer:
-            "Becoming a Facebook and Instagram ad manager involves mastering the skills taught in our course, such as audience targeting, ad creation, and campaign optimization. You can then apply for positions as an ad manager with businesses or agencies.",
+            "The future of digital marketing is bright and evolving. With new technologies like artificial intelligence (AI), automation, and data-driven marketing, the field is only getting more innovative. Plus, with social media, e-commerce, and mobile users increasing, businesses will always need experts to manage their online strategies. Learning digital marketing now sets you up for a future-proof career that’s filled with possibilities!",
         },
         {
-          questions: "What is the salary of Facebook ad expert?",
+          questions: "What career growth can I expect in Digital Marketing?",
           answer:
-            "The salary for a Facebook Ads Manager in India varies from ₹4 Lac to ₹12 Lac per annum for a facebook Ads expert with 0-4 years experience. Ad senior levels, paid advertising experts (performance marketers) can make upto 70 lacs.",
-        },
-      ],
-    },
-    {
-      id: 4,
-      properties: [
-        {
-          questions: "How do I access the course materials after enrolling?",
-          answer:
-            "After enrolling, you will receive access to the course materials through our online learning platform (LMS). You can log in using your credentials to view at any time.",
-        },
-        {
-          questions:
-            " Is the course self-paced, or are there specific deadlines for completion?",
-          answer:
-            "The course is self-paced, allowing you to study at your own convenience. There are no specific deadlines for completion, giving you the flexibility to progress through the material at a comfortable pace.",
-        },
-        {
-          questions: "Are there any additional costs beyond the course fee?",
-          answer:
-            "There are no additional costs beyond the course fee. Everything you need to complete the course successfully is included in the initial fee.",
-        },
-        {
-          questions:
-            " Will I have access to updates or new content after completing the course?",
-          answer:
-            "Yes, you will have access to updates and new content even after completing the course. We regularly update our materials to reflect the latest trends and developments in Facebook and Instagram advertising.",
-        },
-        {
-          questions: "How much time is required to learn FB ads?",
-          answer:
-            "The time required to learn Facebook ads depends on various factors, including your prior experience and the depth of knowledge you wish to acquire. Our course provides a structured learning path to help you learn efficiently and effectively.",
-        },
-        {
-          questions:
-            " Is there ongoing support available after completing the Facebook and Instagram Ads course?",
-          answer:
-            "We have a private support group where you can post your queries even after you complete the course. This will help you get assistance from other members of the community.",
-        },
-        {
-          questions:
-            "Will I receive a certificate upon completing the Facebook and Instagram Ads course?",
-          answer:
-            "Yes, upon successful completion of the course, you will receive a certificate of completion. This certificate can be a valuable asset for showcasing your skills to employers or clients in the digital marketing field.",
-        },
-        {
-          questions:
-            "Can I get a refund or transfer this course to another account?",
-          answer:
-            "Due to the nature of our digital products, we do not offer any refunds or account transfers. We advise you to be thorough with the course details before making a purchase decision.",
+            "Digital marketing offers rapid career growth! You can start as an intern or junior marketer and quickly climb the ladder to roles like Digital Marketing Manager, SEO Expert, Social Media Strategist, or even become a consultant.Plus, with experience, you can specialize in high- paying areas like performance marketing, email automation, or content strategy.Since the industry is growing, there’s always room to advance and take on exciting new challenges!",
         },
       ],
     },
@@ -188,7 +140,16 @@ const Index = () => {
           </div>
           <div className={`${home.p1_body2} `}>
             <div className={`${home.p1_body2_video_sec} `}>
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/OhdUTbH9T-U?si=tduoAKOo9EkxdAw4&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/OhdUTbH9T-U?si=tduoAKOo9EkxdAw4&amp;controls=0"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
             </div>
             <div className={`${home.p1_body2_card_sec} `}>
               <div className={`${home.p1_body2_card_sec_profile} `}>
@@ -3109,14 +3070,14 @@ const Index = () => {
 
         <div className={`${home.p8_body} `}>
           <div className={`${home.p8_body_container} container`}>
-            <h3>Why learn Facebook & Instagram Ads in 2024?</h3>{" "}
+            <h3>Why learn Digital Marketing in 2024?</h3>{" "}
             <ul className={`${home.p8_body_list_sec} `}>
-              <li>Organic reach is dead </li>
-              <li>One of the highest-paid skills</li>
-              <li>Can be started with small budget</li>
-              <li>Laser-sharp targeting possible</li>
-              <li>Extremely scalable across platforms</li>
-              <li>ROI focused & measurable</li>
+              <li> High demand for digital skills.</li>
+              <li>Cost-effective marketing solutions.</li>
+              <li>Flexible career opportunities.</li>
+              <li>Trackable and measurable results. </li>
+              <li>Continuous learning and growth. </li>
+              <li>Reach global audiences easily.</li>
             </ul>
           </div>
         </div>
@@ -3145,13 +3106,13 @@ const Index = () => {
                   <li> Worked with 300+ Clients </li>
                   <li>
                     {" "}
-                    Expert in Scaling Businesses through Data-Driven
-                    Strategies{" "}
+                    Expert in Scaling Businesses through Data-Driven Strategies{" "}
                   </li>
-                  <li> Trained 5000+ Students in Digital Marketing </li> </ul>
+                  <li> Trained 5000+ Students in Digital Marketing </li>{" "}
+                </ul>
               </div>
             </div>
-            <span>AS SEEN ON</span>
+            {/* <span>AS SEEN ON</span>
             <div className={`${home.p9_body_company_sec} `}>
               <div className={`${home.p9_body_company_logo} `}>
                 <Image
@@ -3161,7 +3122,7 @@ const Index = () => {
                   alt=""
                 />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
 
@@ -3177,9 +3138,9 @@ const Index = () => {
                 certificate. This certificate is:
               </p>
               <ul>
-                <li>Official & Verified by Young Urban Project</li>
-                <li>Shareable on LinkedIn and with employers</li>
-                <li>Useful to enhance professional credibility</li>
+                <li>Official & Verified by Rohith Sasanken</li>
+                <li>9+ Google Certifications,Hubspot Certification</li>
+                <li>Useful to enhance professional credibility</li>
               </ul>
               <Link
                 href={"https://nas.io/performance-growth-academy/products/ftpd"}
@@ -3215,14 +3176,16 @@ const Index = () => {
               Hear what 4,000+ students have <br /> to say about our course 😊 →
             </h3>
             <Swiper
-              spaceBetween={15}
+              spaceBetween={0}
               slidesPerView={1}
               navigation={{
                 nextEl: "#swiper_next_btn",
                 prevEl: "#swiper_prev_btn",
               }}
               breakpoints={{
-                500: {
+              
+                
+                550: {
                   spaceBetween: 30,
                   slidesPerView: 2,
                 },
@@ -3324,7 +3287,9 @@ const Index = () => {
             <div className={`${home.p12_body_img_content} `}>
               <div className={`${home.p12_body_img_content_img} `}>
                 <Image
-                  src={"/images/vip.png"}
+                  // src={"/images/vip.png"}
+                  src={"/images/card-img5.png"}
+
                   height={500}
                   width={500}
                   alt=""
@@ -3344,7 +3309,7 @@ const Index = () => {
               <ul>
                 <li>VIP Group for our learners</li>
                 <li>TOP industry professionals</li>
-                <li>Queries answered by YUP Team and community</li>
+                <li>Queries answered by PGA Team and community</li>
               </ul>
               <Link
                 href={"https://nas.io/performance-growth-academy/products/ftpd"}
@@ -3367,8 +3332,8 @@ const Index = () => {
         <div className={`${home.p13_body} `}>
           <div className={`${home.p13_body_container} container`}>
             <h3>
-              Learn the inside out of Meta Ads with our Facebook & Instagram ads
-              course!
+              Learn the inside out of Digital Marketing with our Digital
+              Marketing Mentorship Program!
             </h3>
             <Link
               href={"https://nas.io/performance-growth-academy/products/ftpd"}
@@ -3391,7 +3356,7 @@ const Index = () => {
                     selectedFaq.id == 1 ? `${home.p14_faq_titles_active}` : ""
                   }
                 >
-                  Facebook & Instagram Ads FAQs
+                  Digital Marketing FAQs
                 </li>
                 <li
                   onClick={() => faqClick(2)}
@@ -3399,7 +3364,7 @@ const Index = () => {
                     selectedFaq.id == 2 ? `${home.p14_faq_titles_active}` : ""
                   }
                 >
-                  Facebook & Instagram Ads Course Benefits{" "}
+                  Digital Marketing Course Benefits
                 </li>
                 <li
                   onClick={() => faqClick(3)}
@@ -3407,16 +3372,10 @@ const Index = () => {
                     selectedFaq.id == 3 ? `${home.p14_faq_titles_active}` : ""
                   }
                 >
-                  Facebook & Instagram Ads Growth & Scope{" "}
+                  Digital Marketing Growth and Scope
                 </li>
-                <li
-                  onClick={() => faqClick(4)}
-                  className={
-                    selectedFaq.id == 4 ? `${home.p14_faq_titles_active}` : ""
-                  }
-                >
-                  Facebook & Instagram Ads Course FAQ&apos;s{" "}
-                </li>
+             
+             
               </ul>
               {selectedFaq && (
                 <ul className={`${home.p14_faq_question_sec} `}>

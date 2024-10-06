@@ -6,7 +6,7 @@ const Index = () => {
   return (
     <div className={footer.footer_main_body}>
       <div className={`${footer.footer_container} container`}>
-        <div className={`${footer.footer_content} `}>
+        {/* <div className={`${footer.footer_content} `}>
           <div className={`${footer.footer_content_data_logo_sec} `}>
             <div className={`${footer.footer_content_data_logo} `}>
               <Image
@@ -89,8 +89,8 @@ const Index = () => {
               </ul>
             </div>
           </div>
-        </div>
-        <ul className={`${footer.footer_content2} `}>
+        </div> */}
+        {/* <ul className={`${footer.footer_content2} `}>
           <li>
             <Link href={"/"}>Digital Marketing Strategy</Link>
           </li>
@@ -103,8 +103,38 @@ const Index = () => {
           <li>
             <Link href={"/"}>Performance Marketing Guide</Link>
           </li>
-        </ul>
-        <span>Copyright © 2024 Young Urban Project</span>
+        </ul> */}
+        <div className={footer.footer_follow_us_body}>
+          <h5>Follow for More</h5>
+          <ul>
+            <li>
+              <Link href={"/"}>
+                <div className={footer.footer_follow_us_logo}>
+                  <Image
+                    src="/images/instagram.svg"
+                    height={50}
+                    width={50}
+                    alt=""
+                  />
+                </div>
+              </Link>
+            </li>
+            <li>
+              <div className={footer.footer_follow_us_logo}>
+                {" "}
+                <Link href={"/"}>
+                  <Image
+                    src="/images/linkedin.svg"
+                    height={50}
+                    width={50}
+                    alt=""
+                  />
+                </Link>
+              </div>{" "}
+            </li>
+          </ul>
+        </div>
+        <span>Copyright © 2024 Digital Marketing Mastery</span>
       </div>
     </div>
   );

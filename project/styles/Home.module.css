@@ -3901,7 +3901,7 @@
   }
 
   .p6_body_card {
-    /* width: 100%; */
+    width: 100%;
     min-height: 300px;
     padding: 5%;
     border-radius: 10px;
@@ -4019,6 +4019,12 @@
   .p7_body_container>p {
     font-size: 14px;
     padding: 10px 0;
+  }
+
+
+  .p11_body_slider_card {
+    height: auto;
+    width: 100%;
   }
 }
 
