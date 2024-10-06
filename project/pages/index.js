@@ -3395,8 +3395,8 @@ const Index = () => {
         <div className={`${home.p15_body} `}>
           <div className={`${home.p15_body_container} container`}>
             <h3>
-              Start your success journey & <br /> become a master at Facebook{" "}
-              <br />& Instagram ads!
+              Start your success journey & <br /> become a master at Digital
+              <br />Markeing
             </h3>
             <Link
               href={"https://nas.io/performance-growth-academy/products/ftpd"}
