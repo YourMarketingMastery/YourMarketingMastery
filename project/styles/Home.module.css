@@ -1286,6 +1286,11 @@
   padding: 15px 70px;
 }
 
+.p13_body_button:hover{
+
+  background-color: #dfdfdf;
+
+}
 /* ///////////////// */
 
 .p14_body {
@@ -1439,6 +1444,10 @@
   border: 0;
   padding: 15px 70px;
 }
+.p15_body_button:hover{
+  
+  background-color: #40007c;
+  }
 
 .p15_body_container>p {
   font-size: 18px;
