@@ -108,7 +108,7 @@ const Index = () => {
           <h5>Follow for More</h5>
           <ul>
             <li>
-              <Link href={"/"}>
+              <Link href={"https://www.instagram.com/performancegrowthacademy/"}>
                 <div className={footer.footer_follow_us_logo}>
                   <Image
                     src="/images/instagram.svg"
@@ -122,7 +122,7 @@ const Index = () => {
             <li>
               <div className={footer.footer_follow_us_logo}>
                 {" "}
-                <Link href={"/"}>
+                <Link href={"https://www.linkedin.com/in/rohith-digital-marketing-seo-expert-performance-marketing/"}>
                   <Image
                     src="/images/linkedin.svg"
                     height={50}
