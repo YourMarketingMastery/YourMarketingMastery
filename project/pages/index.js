@@ -125,7 +125,7 @@ const Index = () => {
             </p>
             <h3>📣 Mega Sale: 50% + Extra 20% Off </h3>
             <Link
-              href={"https://nas.io/portal/products/64ec3e7fd9a4130ceff5fcb6"}
+              href={"https://nas.io/performance-growth-academy/products/ecpn"}
               className={`${home.p1_body1_button} `}
               target="blank"
 
@@ -2916,7 +2916,7 @@ const Index = () => {
 
             {/* ----------------Curricculam bottom Section------------------------------ */}
             <Link
-              href={"https://nas.io/portal/products/64ec3e7fd9a4130ceff5fcb6"}
+              href={"https://nas.io/performance-growth-academy/products/ecpn"}
               className={`${home.p6_body_button} `}
               target="blank"
             >
