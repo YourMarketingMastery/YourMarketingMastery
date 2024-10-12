@@ -90,7 +90,7 @@ const Index = () => {
       ],
     },
   ]);
-  
+
   const [selectedFaq, setSelectedFaq] = useState(faq[0]);
 
   const faqSelector = (id) => {
@@ -125,8 +125,10 @@ const Index = () => {
             </p>
             <h3>📣 Mega Sale: 50% + Extra 20% Off </h3>
             <Link
-              href={"https://nas.io/performance-growth-academy/products/ftpd"}
+              href={"https://nas.io/portal/products/64ec3e7fd9a4130ceff5fcb6"}
               className={`${home.p1_body1_button} `}
+              target="blank"
+
             >
               <div className={`${home.p1_body1_button_img} `}>
                 <Image
@@ -136,7 +138,8 @@ const Index = () => {
                   alt=""
                 />{" "}
               </div>
-              Get it now for ₹5999 (Actual Price ₹19999)
+              Attend My Free Digital Marketing Training
+              {/* Get it now for ₹5999 (Actual Price ₹19999) */}
             </Link>
             <span>Rated 4.9/5⭐ on Google</span>
           </div>
@@ -381,7 +384,9 @@ const Index = () => {
                 This course will prepare you to get a high-paying job, acquire
                 freelance clients, or grow your business.
               </p>
-              <Link
+  
+            <Link
+           target="blank"
                 href={"https://nas.io/performance-growth-academy/products/ftpd"}
                 className={`${home.p5_body_button} `}
               >
@@ -2911,8 +2916,9 @@ const Index = () => {
 
             {/* ----------------Curricculam bottom Section------------------------------ */}
             <Link
-              href={"https://nas.io/performance-growth-academy/products/ftpd"}
+              href={"https://nas.io/portal/products/64ec3e7fd9a4130ceff5fcb6"}
               className={`${home.p6_body_button} `}
+              target="blank"
             >
               <div className={`${home.p6_body_button_img} `}>
                 <Image
@@ -2922,7 +2928,7 @@ const Index = () => {
                   alt=""
                 />{" "}
               </div>
-              Get it now for ₹5999 (Actual Price ₹19999)
+              Attend My Free Digital Marketing Training
             </Link>
             <span className={`${home.p6_body_offer_msg} `}>
               🎉 80% + Extra 20% off only for today
@@ -3145,7 +3151,9 @@ const Index = () => {
                 <li>9+ Google Certifications,Hubspot Certification</li>
                 <li>Useful to enhance professional credibility</li>
               </ul>
-              <Link
+  
+            <Link
+           target="blank"
                 href={"https://nas.io/performance-growth-academy/products/ftpd"}
                 className={`${home.p10_body_button} `}
               >
@@ -3314,7 +3322,9 @@ const Index = () => {
                 <li>TOP industry professionals</li>
                 <li>Queries answered by PGA Team and community</li>
               </ul>
-              <Link
+  
+            <Link
+           target="blank"
                 href={"https://nas.io/performance-growth-academy/products/ftpd"}
                 className={`${home.p12_body_button} `}
               >
@@ -3338,7 +3348,9 @@ const Index = () => {
               Learn the inside out of Digital Marketing with our Digital
               Marketing Mentorship Program!
             </h3>
+
             <Link
+           target="blank"
               href={"https://nas.io/performance-growth-academy/products/ftpd"}
               className={`${home.p13_body_button} `}
             >
@@ -3401,7 +3413,9 @@ const Index = () => {
               Start your success journey & <br /> become a master at Digital
               <br />Markeing
             </h3>
+
             <Link
+           target="blank"
               href={"https://nas.io/performance-growth-academy/products/ftpd"}
               className={`${home.p15_body_button} `}
             >
