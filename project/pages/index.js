@@ -125,7 +125,7 @@ const Index = () => {
             </p>
             <h3>📣 Mega Sale: 50% + Extra 20% Off </h3>
             <Link
-              href={"https://nas.io/performance-growth-academy/products/ecpn"}
+              href={"https://chat.whatsapp.com/Ecxk5piHVOY7lfxwS0skRz"}
               className={`${home.p1_body1_button} `}
               target="blank"
 
@@ -138,7 +138,7 @@ const Index = () => {
                   alt=""
                 />{" "}
               </div>
-              Attend My Free Digital Marketing Training
+              Attend My Free Digital Marketing Webinar
               {/* Get it now for ₹5999 (Actual Price ₹19999) */}
             </Link>
             <span>Rated 4.9/5⭐ on Google</span>
@@ -2916,7 +2916,7 @@ const Index = () => {
 
             {/* ----------------Curricculam bottom Section------------------------------ */}
             <Link
-              href={"https://nas.io/performance-growth-academy/products/ecpn"}
+              href={"https://chat.whatsapp.com/Ecxk5piHVOY7lfxwS0skRz"}
               className={`${home.p6_body_button} `}
               target="blank"
             >
@@ -2928,7 +2928,7 @@ const Index = () => {
                   alt=""
                 />{" "}
               </div>
-              Attend My Free Digital Marketing Training
+              Attend My Free Digital Marketing Webinar
             </Link>
             <span className={`${home.p6_body_offer_msg} `}>
               🎉 80% + Extra 20% off only for today
