@@ -459,6 +459,17 @@
   padding-bottom: 100px;
 }
 
+.p6_sub_body {
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #474747;
+
+}
+
 .p6_body_container {
   width: 100%;
   display: flex;
@@ -1286,11 +1297,12 @@
   padding: 15px 70px;
 }
 
-.p13_body_button:hover{
+.p13_body_button:hover {
 
   background-color: #dfdfdf;
-/* color: white; */
+  /* color: white; */
 }
+
 /* ///////////////// */
 
 .p14_body {
@@ -1444,10 +1456,11 @@
   border: 0;
   padding: 15px 70px;
 }
-.p15_body_button:hover{
-  
+
+.p15_body_button:hover {
+
   background-color: #40007c;
-  }
+}
 
 .p15_body_container>p {
   font-size: 18px;

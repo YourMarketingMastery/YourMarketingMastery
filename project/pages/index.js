@@ -13,6 +13,7 @@ import "swiper/css/pagination";
 // import required modules
 import { Navigation, Pagination } from "swiper/modules";
 import Link from "next/link";
+import WhatsAppWidget from "@/components/WhatsappWidget";
 //https://www.youngurbanproject.com/facebook-instagram-ads-course-online/
 
 const Index = () => {
@@ -103,9 +104,182 @@ const Index = () => {
   };
   // console.log(selectedFaq.id);
 
+  // const curriculamSec = [
+  //   {
+  //     title: "Social Media Marketing Course Curriculum",
+  //     paragraph:
+  //       " Learn <b> Beginner-to-Advanced</b> Level Social Media Marketing with 70+ video lessons",
+  //     card: [
+  //       {
+  //         card_head: "Introduction to Social Media Marketing",
+  //         cardList: [
+  //           "Overview of Social Media Marketing SMM",
+  //           "Importance of SMM in the Digital Landscape",
+  //           "Understanding Different Social Media Platforms",
+  //           "Defining Goals and KPIs for SMM Campaigns",
+  //         ],
+  //       },
+  //       {
+  //         card_head: " Understanding Meta Ads",
+  //         cardList: [
+  //           "Overview of Facebook and Instagram Ads ",
+  //           "Ad Formats, Placements, and Objectives ",
+  //           "Meta Business Suite and Ads Manager",
+  //         ],
+  //       },
+  //       {
+  //         card_head: " Creating Effective Ad Campaigns",
+  //         cardList: [
+  //           "Audience Targeting and Custom Audiences ",
+  //           "Ad Creative: Copywriting, Visuals, and Videos ",
+  //           "AB Testing and Ad Optimization",
+  //         ],
+  //       },
+  //       {
+  //         card_head: " Advanced Strategies",
+  //         cardList: [
+  //           "Retargeting and Lookalike Audiences ",
+  //           "Measuring ROI and Advanced Analytics ",
+  //           "Meta Pixel and Conversion Tracking<",
+  //         ],
+  //       },
+  //       {
+  //         card_head: "LinkedIn Fundamentals",
+  //         cardList: [
+  //           "Understanding LinkedIn for B2B Marketing ",
+  //           "Profile Optimization and Personal Branding ",
+  //           "Company Pages and Content Strategies",
+  //         ],
+  //       },
+  //       {
+  //         card_head: "LinkedIn Ads",
+  //         cardList: [
+  //           "Ad Types: Sponsored Content, InMail, and Text Ads ",
+  //           "Targeting Options and Campaign Setup ",
+  //           "Lead Generation and Sales Funnel Strategies",
+  //         ],
+  //       },
+  //       {
+  //         card_head: "Engagement and Growth",
+  //         cardList: [
+  //           "Building a Professional Network ",
+  //           "LinkedIn Analytics and Performance Measurement ",
+  //         ],
+  //       },
+  //       {
+  //         card_head: "Twitter Basics",
+  //         cardList: [
+  //           "Twitter &apos;s Role in Real-Time Marketing ",
+  //           "Profile and Content Optimization ",
+  //           "Understanding Twitter Ads and Ad Types",
+  //         ],
+  //       },
+  //       {
+  //         card_head: "Twitter Ad Campaigns",
+  //         cardList: [
+  //           "Audience Targeting and Campaign Setup ",
+  //           "Best Practices for Promoted Tweets and Trends ",
+  //           "Utilizing Twitter Analytics for Insights",
+  //         ],
+  //       },
+  //       {
+  //         card_head: "Advanced Strategies",
+  //         cardList: [
+  //           "Real-time Engagement and Influencer Outreach ",
+  //           "Crisis Management and Customer Service via Twitter ",
+  //         ],
+  //       },
+  //       {
+  //         card_head: "Snapchat Overview",
+  //         cardList: [
+  //           "Understanding Snapchat&apos;s Unique Audience ",
+  //           "Profile Creation and Content Strategy ",
+  //         ],
+  //       },
+  //       {
+  //         card_head: "Snapchat Ads",
+  //         cardList: [
+  //           " Ad Types: Snap Ads, Collection Ads, Story Ads, Filters, and Lenses ",
+  //           "Targeting and Retargeting on Snapchat ",
+  //           "Measuring Campaign Performance with Snapchat Insights",
+  //         ],
+  //       },
+  //       {
+  //         card_head: "Content Strategies",
+  //         cardList: [
+  //           "Creating Engaging and Interactive Content ",
+  //           "Leveraging AR Augmented Reality and Lenses for Branding ",
+  //         ],
+  //       },
+  //       {
+  //         card_head: "Understanding TikTok",
+  //         cardList: [
+  //           "TikTok&apos;s User Demographics and Algorithm ",
+  //           "Profile Optimization and Content Planning< ",
+  //         ],
+  //       },
+  //       {
+  //         card_head: "TikTok Ads",
+  //         cardList: [
+  //           "Ad Formats: In-Feed Ads, Branded Hashtags, Effects, and TopView Ads ",
+  //           "Targeting, Budgeting, and Bidding Strategies ",
+  //           "Influencer Marketing and Collaborations",
+  //         ],
+  //       },
+  //       {
+  //         card_head: "Viral Content Creation",
+  //         cardList: [
+  //           "Trends, Challenges, and Content Strategy ",
+  //           "Analyzing TikTok Analytics and Metrics ",
+  //         ],
+  //       },
+  //       {
+  //         card_head: "Creating a Multi-Platform Strategy",
+  //         cardList: [
+  //           "Aligning Campaigns Across Platforms ",
+  //           "Cross-Channel Analytics and Performance Tracking ",
+  //           "Case Studies and Best Practices",
+  //         ],
+  //       },
+  //       {
+  //         card_head: "Tools and Automation",
+  //         cardList: [
+  //           " Social Media Management Tools (e.g., Hootsuite, Buffer) ",
+  //           "Scheduling, Automation, and Monitoring ",
+  //           "Analyzing Data and Making Data-Driven Decisions",
+  //         ],
+  //       },
+  //       {
+  //         card_head: "Current Trends and Innovations",
+  //         cardList: [
+  //           "Leveraging AI and Machine Learning in SMM ",
+  //           "Video and Live Streaming Strategies ",
+  //           "The Rise of Short-form Content and Micro-Influencers",
+  //         ],
+  //       },
+  //       {
+  //         card_head: "Future of Social Media Marketing",
+  //         cardList: [
+  //           "Exploring New and Emerging Platforms ",
+  //           "Preparing for Privacy Changes and Platform Updates ",
+  //         ],
+  //       },
+  //       {
+  //         card_head: "Social Media Marketing Capstone Project",
+  //         cardList: [
+  //           "Real-life Scenario Based Projects ",
+  //           "Developing a Comprehensive Social Media Strategy ",
+  //           "Presenting the Strategy and Receiving Feedback",
+  //         ],
+  //       },
+  //     ],
+  //   },
+  // ];
+
   return (
     <div>
       <div className={home.mainbody}>
+        <WhatsAppWidget />
 
         {/* -----------Digital Marketing Mastery----------------- */}
         <div className={`${home.p1_main_body} container`}>
@@ -128,7 +302,6 @@ const Index = () => {
               href={"https://chat.whatsapp.com/Ecxk5piHVOY7lfxwS0skRz"}
               className={`${home.p1_body1_button} `}
               target="blank"
-
             >
               <div className={`${home.p1_body1_button_img} `}>
                 <Image
@@ -263,7 +436,8 @@ const Index = () => {
               money back if you don&apos;t secure a job.
             </p>
             <p>
-              Enroll now for just ₹5999 (Actual Price ₹19999) during our Mega
+              {/* Enroll now for just ₹5999 (Actual Price ₹19999) during our Mega */}
+              Enroll now for just ₹9999 (Actual Price ₹19999) during our Mega
               Sale! Take control of your future in digital marketing today.
             </p>
             <div className={`${home.p3_body_content_card_container} `}>
@@ -384,9 +558,9 @@ const Index = () => {
                 This course will prepare you to get a high-paying job, acquire
                 freelance clients, or grow your business.
               </p>
-  
-            <Link
-           target="blank"
+
+              <Link
+                target="blank"
                 href={"https://nas.io/performance-growth-academy/products/ftpd"}
                 className={`${home.p5_body_button} `}
               >
@@ -398,7 +572,8 @@ const Index = () => {
                     alt=""
                   />{" "}
                 </div>
-                Get it now for ₹5999 (Actual Price ₹19999)
+                {/* Get it now for ₹5999 (Actual Price ₹19999) */}
+                Get it now for ₹9999 (Actual Price ₹19999)
               </Link>
             </div>
 
@@ -476,8 +651,8 @@ const Index = () => {
               Learn <b> Beginner-to-Advanced</b> Level Social Media Marketing
               with 70+ video lessons
             </p>
-            {/* <div className={`${home.p6_body_card_sec} `}> */}
-            {/* --------Social Media Curriculam start -------------- */}
+            {/* <div className={`${home.p6_body_card_sec} `}>
+            --------Social Media Curriculam start -------------- */}
             <Swiper
               pagination={{ type: "fraction" }}
               spaceBetween={40}
@@ -594,16 +769,8 @@ const Index = () => {
                   </ul>
                 </div>
               </SwiperSlide>
-              <SwiperSlide>
-                <div className={`${home.p6_body_card} `}>
-                  <h3> Twitter Ad Campaigns</h3>{" "}
-                  <ul>
-                    <li>Audience Targeting and Campaign Setup</li>
-                    <li>Best Practices for Promoted Tweets and Trends</li>
-                    <li>Utilizing Twitter Analytics for Insights</li>
-                  </ul>
-                </div>
-              </SwiperSlide>
+
+
               <SwiperSlide>
                 <div className={`${home.p6_body_card} `}>
                   <h3> Snapchat Overview</h3>{" "}
@@ -743,6 +910,8 @@ const Index = () => {
               </div>{" "}
             </Swiper>
             {/* --------Social Media Curriculam End -------------- */}
+
+
             {/* --------SEO Curriculam start -------------- */}
             <h3>SEO Curriculum</h3>
             <p>
@@ -3151,9 +3320,9 @@ const Index = () => {
                 <li>9+ Google Certifications,Hubspot Certification</li>
                 <li>Useful to enhance professional credibility</li>
               </ul>
-  
-            <Link
-           target="blank"
+
+              <Link
+                target="blank"
                 href={"https://nas.io/performance-growth-academy/products/ftpd"}
                 className={`${home.p10_body_button} `}
               >
@@ -3194,8 +3363,6 @@ const Index = () => {
                 prevEl: "#swiper_prev_btn",
               }}
               breakpoints={{
-
-
                 550: {
                   spaceBetween: 30,
                   slidesPerView: 2,
@@ -3300,7 +3467,6 @@ const Index = () => {
                 <Image
                   // src={"/images/vip.png"}
                   src={"/images/card-img5.png"}
-
                   height={500}
                   width={500}
                   alt=""
@@ -3322,9 +3488,9 @@ const Index = () => {
                 <li>TOP industry professionals</li>
                 <li>Queries answered by PGA Team and community</li>
               </ul>
-  
-            <Link
-           target="blank"
+
+              <Link
+                target="blank"
                 href={"https://nas.io/performance-growth-academy/products/ftpd"}
                 className={`${home.p12_body_button} `}
               >
@@ -3350,7 +3516,7 @@ const Index = () => {
             </h3>
 
             <Link
-           target="blank"
+              target="blank"
               href={"https://nas.io/performance-growth-academy/products/ftpd"}
               className={`${home.p13_body_button} `}
             >
@@ -3389,8 +3555,6 @@ const Index = () => {
                 >
                   Digital Marketing Growth and Scope
                 </li>
-
-
               </ul>
               {selectedFaq && (
                 <ul className={`${home.p14_faq_question_sec} `}>
@@ -3411,11 +3575,12 @@ const Index = () => {
           <div className={`${home.p15_body_container} container`}>
             <h3>
               Start your success journey & <br /> become a master at Digital
-              <br />Markeing
+              <br />
+              Markeing
             </h3>
 
             <Link
-           target="blank"
+              target="blank"
               href={"https://nas.io/performance-growth-academy/products/ftpd"}
               className={`${home.p15_body_button} `}
             >
